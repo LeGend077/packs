@@ -1,0 +1,16 @@
+{
+    "format_version": "1.12",
+    "minecraft:recipe_furnace": {
+        "tags": [
+            "furnace"
+        ],
+        "output": "minecraft:concrete_powder",
+        "input": {
+            "item": "minecraft:concrete",
+            "data": 9
+        },
+        "description": {
+            "identifier": "crafting:recipe"
+        }
+    }
+}

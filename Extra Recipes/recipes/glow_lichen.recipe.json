@@ -1,0 +1,23 @@
+{
+    "format_version": "1.12",
+    "minecraft:recipe_shapeless": {
+        "tags": [
+            "crafting_table"
+        ],
+        "ingredients": [
+            {
+                "item": "minecraft:vine"
+            },
+            {
+                "item": "minecraft:glowstone"
+            }
+        ],
+        "result": {
+            "item": "minecraft:glow_lichen",
+            "count": 1
+        },
+        "description": {
+            "identifier": "crafting:glow_lichen"
+        }
+    }
+}

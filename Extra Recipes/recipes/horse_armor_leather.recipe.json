@@ -1,0 +1,25 @@
+{
+    "format_version": "1.12",
+    "minecraft:recipe_shaped": {
+        "tags": [
+            "crafting_table"
+        ],
+        "pattern": [
+            "#  ",
+            "###",
+            "###"
+        ],
+        "key": {
+            "#": {
+                "item": "minecraft:leather"
+            }
+        },
+        "result": {
+            "item": "minecraft:leather_horse_armor",
+            "count": 1
+        },
+        "description": {
+            "identifier": "crafting:horse_armor_leather"
+        }
+    }
+}

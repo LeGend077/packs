@@ -1,0 +1,25 @@
+{
+    "format_version": "1.12",
+    "minecraft:recipe_shaped": {
+        "tags": [
+            "crafting_table"
+        ],
+        "pattern": [
+            "# #",
+            "# #",
+            "   "
+        ],
+        "key": {
+            "#": {
+                "item": "minecraft:chain"
+            }
+        },
+        "result": {
+            "item": "minecraft:chainmail_boots",
+            "count": 1
+        },
+        "description": {
+            "identifier": "crafting:chainmail_boots"
+        }
+    }
+}

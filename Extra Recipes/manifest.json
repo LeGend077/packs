@@ -1,0 +1,18 @@
+{
+    "format_version": 2,
+    "header": {
+        "description": "More Recipes Addon by LeGend077. Inspired by Mysticat.",
+        "name": "Extra Recipes Add-on",
+        "uuid": "64dfceee-5ff2-4c08-b878-b9fded7b9282",
+        "version": [ 0, 0, 1 ],
+        "min_engine_version": [ 1, 18, 0 ]
+    },
+    "modules": [
+        {
+            "description": "Example vanilla behavior pack",
+            "type": "data",
+            "uuid": "5623ce2e-3033-4227-85aa-5009eb59c6be",
+            "version": [0, 0, 1]
+        }
+    ]
+}

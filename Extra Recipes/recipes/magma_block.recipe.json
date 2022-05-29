@@ -1,0 +1,23 @@
+{
+    "format_version": "1.12",
+    "minecraft:recipe_shapeless": {
+        "tags": [
+            "crafting_table"
+        ],
+        "ingredients": [
+            {
+                "item": "minecraft:netherrack"
+            },
+            {
+                "item": "minecraft:lava_bucket"
+            }
+        ],
+        "result": {
+            "item": "minecraft:magma",
+            "count": 1
+        },
+        "description": {
+            "identifier": "crafting:magma_block"
+        }
+    }
+}

@@ -1,0 +1,30 @@
+{
+    "format_version": "1.12",
+    "minecraft:recipe_shaped": {
+        "tags": [
+            "crafting_table"
+        ],
+        "pattern": [
+            "###",
+            "#S#",
+            "###"
+        ],
+        "key": {
+            "#": {
+                "item": "minecraft:rotten_flesh"
+            },
+            "S": {
+                "item": "minecraft:skull",
+                "data": 3
+            }
+        },
+        "result": {
+            "item": "minecraft:skull",
+            "data": 2,
+            "count": 1
+        },
+        "description": {
+            "identifier": "crafting:zombie_head"
+        }
+    }
+}

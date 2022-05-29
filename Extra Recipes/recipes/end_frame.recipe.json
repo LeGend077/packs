@@ -1,0 +1,31 @@
+{
+    "format_version": "1.12",
+    "minecraft:recipe_shaped": {
+        "tags": [
+            "crafting_table"
+        ],
+        "pattern": [
+            "   ",
+            "#D#",
+            "EEE"
+        ],
+        "key": {
+            "#": {
+                "item": "minecraft:ender_pearl"
+            },
+            "D": {
+                "item": "minecraft:dragon_breath"
+            },
+            "E": {
+                "item": "minecraft:end_stone"
+            }
+        },
+        "result": {
+            "item": "minecraft:end_portal_frame",
+            "count": 1
+        },
+        "description": {
+            "identifier": "crafting:end_frame"
+        }
+    }
+}

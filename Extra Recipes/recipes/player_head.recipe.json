@@ -1,0 +1,24 @@
+{
+    "format_version": "1.12",
+    "minecraft:recipe_shapeless": {
+        "tags": [
+            "crafting_table"
+        ],
+        "ingredients": [
+            {
+                "item": "minecraft:experience_bottle"
+            },
+            {
+                "item": "minecraft:totem_of_undying"
+            }
+        ],
+        "result": {
+            "item": "minecraft:skull",
+            "data": 3,
+            "count": 1
+        },
+        "description": {
+            "identifier": "crafting:player_head"
+        }
+    }
+}

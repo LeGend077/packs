@@ -1,0 +1,26 @@
+{
+    "format_version": "1.12",
+    "minecraft:recipe_shapeless": {
+        "tags": [
+            "crafting_table"
+        ],
+        "ingredients": [
+            {
+                "item": "minecraft:splash_potion"
+            },
+            {
+                "item": "minecraft:dragon_breath"
+            },
+            {
+                "item": "minecraft:ghast_tear"
+            }
+        ],
+        "result": {
+            "item": "minecraft:experience_bottle",
+            "count": 1
+        },
+        "description": {
+            "identifier": "crafting:exp_bottle"
+        }
+    }
+}

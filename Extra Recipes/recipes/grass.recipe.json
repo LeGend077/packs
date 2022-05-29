@@ -1,0 +1,23 @@
+{
+    "format_version": "1.12",
+    "minecraft:recipe_shapeless": {
+        "tags": [
+            "crafting_table"
+        ],
+        "ingredients": [
+            {
+                "item": "minecraft:moss_carpet"
+            },
+            {
+                "item": "minecraft:dirt"
+            }
+        ],
+        "result": {
+            "item": "minecraft:grass",
+            "count": 1
+        },
+        "description": {
+            "identifier": "crafting:grass"
+        }
+    }
+}

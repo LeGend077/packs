@@ -1,0 +1,16 @@
+{
+    "format_version": "1.12",
+    "minecraft:recipe_furnace": {
+        "tags": [
+            "campfire",
+            "soul_campfire"
+        ],
+        "output": "minecraft:leather",
+        "input": {
+            "item": "minecraft:rotten_flesh"
+        },
+        "description": {
+            "identifier": "crafting:recipe"
+        }
+    }
+}

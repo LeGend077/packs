@@ -1,0 +1,20 @@
+{
+    "format_version": "1.12",
+    "minecraft:recipe_shapeless": {
+        "tags": [
+            "crafting_table"
+        ],
+        "ingredients": [
+            {
+                "item": "minecraft:glow_berries"
+            }
+        ],
+        "result": {
+            "item": "minecraft:glowstone_dust",
+            "count": 1
+        },
+        "description": {
+            "identifier": "crafting:glow_dust"
+        }
+    }
+}

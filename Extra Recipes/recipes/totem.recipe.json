@@ -1,0 +1,31 @@
+{
+    "format_version": "1.12",
+    "minecraft:recipe_shaped": {
+        "tags": [
+            "crafting_table"
+        ],
+        "pattern": [
+            "#B#",
+            "#E#",
+            "#B#"
+        ],
+        "key": {
+            "#": {
+                "item": "minecraft:gold_block"
+            },
+            "B": {
+                "item": "minecraft:blaze_powder"
+            },
+            "E": {
+                "item": "minecraft:emerald_block"
+            }
+        },
+        "result": {
+            "item": "minecraft:totem_of_undying",
+            "count": 1
+        },
+        "description": {
+            "identifier": "crafting:totem"
+        }
+    }
+}

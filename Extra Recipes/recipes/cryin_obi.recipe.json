@@ -1,0 +1,28 @@
+{
+    "format_version": "1.12",
+    "minecraft:recipe_shaped": {
+        "tags": [
+            "crafting_table"
+        ],
+        "pattern": [
+            "###",
+            "#G#",
+            "###"
+        ],
+        "key": {
+            "#": {
+                "item": "minecraft:obsidian"
+            },
+            "G": {
+                "item": "minecraft:ghast_tear"
+            }
+        },
+        "result": {
+            "item": "minecraft:crying_obsidian",
+            "count": 8
+        },
+        "description": {
+            "identifier": "crafting:cryin_obi"
+        }
+    }
+}
