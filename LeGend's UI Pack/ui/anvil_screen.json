@@ -1,0 +1,20 @@
+/********************************************************
++*   (c) Mojang. All rights reserved                       *
++*   (c) Microsoft. All rights reserved.                   *
++*********************************************************/
+
+{
+  "namespace": "anvil",
+  "text_edit_control@common.text_edit_box": {
+    "anchor_from": "top_left", // the parent
+    "anchor_to": "top_left", // this control
+    "property_bag": {
+      "#property_field": "#item_name"
+    },
+    "max_length": 100,
+    "$text_edit_binding_name": "#text_box_item_name",
+    "$text_edit_box_label_size": [ "default", 10 ]
+  }
+}
+
+// #endregion

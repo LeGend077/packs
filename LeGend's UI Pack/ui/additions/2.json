@@ -1,0 +1,104 @@
+{
+    "namespace":"two",
+    "toggle@common.toggle":{
+        "$toggle_collection_detail_name": "$toggle_view_binding_name",
+        "$unchecked_locked_control|default": "two.unchecked",
+        "$unchecked_locked_hover_control|default": "two.unchecked",
+        "$checked_locked_control|default": "two.checked",
+        "$checked_locked_hover_control|default": "two.checked",
+        "$unchecked_control|default": "two.unchecked",
+        "$checked_control|default": "two.checked",
+        "$unchecked_hover_control|default": "two.unchecked_hover",
+        "$checked_hover_control|default": "two.checked_hover"
+    },
+
+    "main_toggle": {
+        "type": "panel",
+        "layer": 3,
+        "$toggle_view_binding_name|default": "this_toggle",
+        "$template_toggle|default": "two.toggle_main",
+        "controls": [
+          {
+            "$toggle_view_binding_name@$template_toggle": {}
+          }
+        ]
+      },
+
+    "show_button": {
+        "type": "panel",
+        "layer": 3,
+        "$toggle_view_binding_name|default": "this_toggle",
+        "$template_toggle|default": "two.toggle",
+        "controls": [
+          {
+            "$toggle_view_binding_name@$template_toggle": {}
+          }
+        ]
+      },
+
+    "toggle_image":{
+        "type":"image"
+    },
+
+    "unchecked@two.toggle_image":{
+        "texture":"textures/items/ender_pearl"
+    },
+    
+    "checked@two.toggle_image":{
+        "texture":"textures/items/ender_eye"
+    },
+
+    "unchecked_hover@two.toggle_image":{
+        "texture":"textures/items/ender_pearl"
+    },
+
+    "checked_hover@two.toggle_image":{
+        "texture":"textures/items/ender_eye"
+    },
+
+    "toggle_main@common.toggle":{
+        "$toggle_collection_detail_name": "$toggle_view_binding_name",
+        "$unchecked_locked_control|default": "two.unchecked2",
+        "$unchecked_locked_hover_control|default": "two.unchecked2",
+        "$checked_locked_control|default": "two.checked2",
+        "$checked_locked_hover_control|default": "two.checked2",
+        "$unchecked_control|default": "two.unchecked2",
+        "$checked_control|default": "two.checked2",
+        "$unchecked_hover_control|default": "two.unchecked_hover2",
+        "$checked_hover_control|default": "two.checked_hover2"
+    },
+
+    "unchecked2@two.toggle_image":{
+        "texture":"textures/ui/toggle_off"
+    },
+    
+    "checked2@two.toggle_image":{
+        "texture":"textures/ui/toggle_on"
+    },
+
+    "unchecked_hover2@two.toggle_image":{
+        "texture":"textures/ui/toggle_off_hover"
+    },
+
+    "checked_hover2@two.toggle_image":{
+        "texture":"textures/ui/toggle_on_hover"
+    },
+
+    "small_button@common_buttons.light_text_button": {
+        "size": [ 27, 27 ],
+        "$pressed_button_name": "button.send",
+        "anchor_from": "bottom_right",
+        "anchor_to": "bottom_right"
+      },
+      "togglem": {
+        "type": "panel",
+        "layer": 3,
+        "$toggle_view_binding_name|default": "this_toggle",
+        "$template_toggle|default": "two.toggle_main",
+        "controls": [
+          {
+            "$toggle_view_binding_name@$template_toggle": {}
+          }
+        ]
+      }
+}

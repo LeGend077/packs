@@ -1,0 +1,14 @@
+{
+  "namespace": "anvil_pocket",
+  "text_edit_control@common.text_edit_box": {
+    "anchor_from": "left_middle", // the parent
+    "anchor_to": "left_middle", // this control
+    "size": [ 142, 16 ],
+
+    "property_bag": {
+      "#property_field": "#item_name"
+    },
+    "max_length": 100,
+    "$text_edit_binding_name": "#text_box_item_name"
+  }
+}

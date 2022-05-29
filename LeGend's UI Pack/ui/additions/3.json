@@ -1,0 +1,45 @@
+    "namespace":"example",
+    "toggle@common.toggle":{
+        "$toggle_collection_detail_name": "$toggle_view_binding_name",
+        "$unchecked_locked_control|default": "example.unchecked",
+        "$unchecked_locked_hover_control|default": "example.unchecked",
+        "$checked_locked_control|default": "example.checked",
+        "$checked_locked_hover_control|default": "example.checked",
+        "$unchecked_control|default": "example.unchecked",
+        "$checked_control|default": "example.checked",
+        "$unchecked_hover_control|default": "example.unchecked_hover",
+        "$checked_hover_control|default": "example.checked_hover"
+    },
+
+    "main_toggle": {
+        "type": "panel",
+        "layer": 3,
+        "$toggle_view_binding_name|default": "this_toggle",
+        "$template_toggle|default": "example.toggle_main",
+        "controls": [
+          {
+            "$toggle_view_binding_name@$template_toggle": {}
+          }
+        ]
+      },
+
+    "toggle_image":{
+        "type":"image"
+    },
+
+    "unchecked@example.toggle_image":{
+        "texture":"textures/items/ender_pearl"
+    },
+    
+    "checked@example.toggle_image":{
+        "texture":"textures/items/ender_eye"
+    },
+
+    "unchecked_hover@example.toggle_image":{
+        "texture":"textures/items/ender_pearl"
+    },
+
+    "checked_hover@example.toggle_image":{
+        "texture":"textures/items/ender_eye"
+    }
+}
