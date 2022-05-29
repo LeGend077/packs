@@ -1,0 +1,82 @@
+// File made and modified by @tlgm2308 (Twitter).
+// Please respect my works ;-;, and do not steal my code without permissions!
+{
+  "black_background": {
+    "type": "image",
+    "texture": "textures/ui/control",
+    "$death_bg_alpha|default": 0.3,
+    "alpha": "$death_bg_alpha"
+  },
+
+// You don't like black death background?
+// Change this code in "death_screen":
+// "death.black_background" --> "death.background_gradient"
+  "death_screen": {
+    "$render_bg": true,
+    "$screen_bg_content": "death.black_background"
+  },
+
+  "death_screen_content/death_screen_buttons_and_stuff/respawn_button": {
+    "anchor_to": "bottom_middle",
+    "offset": [ 0, 8 ]
+  },
+
+  "death_screen_content/death_screen_buttons_and_stuff/main_menu_button": {
+    "anchor_to": "top_middle",
+    "offset": [ 0, 12 ]
+  },
+
+  "death_screen_content/death_screen_buttons_and_stuff": {
+    "modifications": [
+      {
+        "control_name": "you_died_label",
+        "operation": "remove"
+      }
+    ]
+  },
+
+  "death_screen_content": {
+    "modifications": [
+      {
+        "array_name": "controls",
+        "operation": "insert_front",
+        "value": [
+          {
+            "always_visible_stuff": {
+              "type": "panel",
+              "controls": [
+                {
+                  "you_died_label": {
+                    "type": "label",
+                    "color": "$death_text_color",
+                    "anchor_from": "top_middle",
+                    "anchor_to": "bottom_middle",
+                    "offset": [ 0, "25%" ],
+                    "size": [ "100% - 8px", "default" ],
+                    "text": "What a Shame!",
+                    "text_alignment": "center",
+                    "shadow": true,
+                    "font_size": "large"
+                  }
+                },
+                {
+                  "you_died_subtitle_label": {
+                    "type": "label",
+                    "color": "$death_text_color",
+                    "anchor_from": "top_middle",
+                    "anchor_to": "top_middle",
+                    "offset": [ 0, "25% + 4px" ],
+                    "size": [ "100% - 8px", "default" ],
+                    "text": " ",
+                    "text_alignment": "center",
+                    "shadow": true
+                  }
+                }
+              ]
+            }
+          }
+        ]
+      }
+    ]
+  }
+}

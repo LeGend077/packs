@@ -1,0 +1,115 @@
+{
+    "namespace": "mod_buttons",
+    "mod_button_checked@common.toggle": {
+      "$unchecked_locked_control|default": "mod_buttons.toggle_unchecked",
+      "$unchecked_locked_hover_control|default": "mod_buttons.toggle_checked",
+      "$checked_locked_control|default": "mod_buttons.toggle_checked",
+      "$checked_locked_hover_control|default": "mod_buttons.toggle_checked",
+      "$unchecked_control|default": "mod_buttons.toggle_unchecked",
+      "$checked_control|default": "mod_buttons.toggle_checked",
+      "$unchecked_hover_control|default": "mod_buttons.toggle_unchecked_hover",
+      "$checked_hover_control|default": "mod_buttons.toggle_checked_hover"
+    },
+    "mod_button_unchecked@common.toggle": {
+      "$unchecked_locked_control|default": "mod_buttons.toggle_uncheckedBTU",
+      "$unchecked_locked_hover_control|default": "mod_buttons.toggle_checkedBTU",
+      "$checked_locked_control|default": "mod_buttons.toggle_checkedBTU",
+      "$checked_locked_hover_control|default": "mod_buttons.toggle_checkedBTU",
+      "$unchecked_control|default": "mod_buttons.toggle_uncheckedBTU",
+      "$checked_control|default": "mod_buttons.toggle_checkedBTU",
+      "$unchecked_hover_control|default": "mod_buttons.toggle_unchecked_hoverBTU",
+      "$checked_hover_control|default": "mod_buttons.toggle_checked_hoverBTU"
+    },
+    "mod_toggles@common.toggle": {
+      "$toggle_collection_detail_name": "$toggle_view_binding_name",
+      "$unchecked_locked_control|default": "mod_buttons.toggle_uncheckedMT",
+      "$unchecked_locked_hover_control|default": "mod_buttons.toggle_uncheckedMT",
+      "$checked_locked_control|default": "mod_buttons.toggle_checkedMT",
+      "$checked_locked_hover_control|default": "mod_buttons.toggle_checkedMT",
+      "$unchecked_control|default": "mod_buttons.toggle_uncheckedMT",
+      "$checked_control|default": "mod_buttons.toggle_checkedMT",
+      "$unchecked_hover_control|default": "mod_buttons.toggle_unchecked_hoverMT",
+      "$checked_hover_control|default": "mod_buttons.toggle_checked_hoverMT"
+    },
+    "mod_panel_content": {
+      "type": "image"
+    },
+    "mod_panel_unchecked": {
+      "type": "panel",
+      "layer": 3,
+      "$toggle_view_binding_name|default": "this_toggle",
+      "$template_toggle|default": "mod_buttons.mod_button_unchecked",
+      "controls": [
+        {
+          "$toggle_view_binding_name@$template_toggle": {}
+        }
+      ]
+    },
+    "mod_toggles_content": {
+      "type": "image",
+      "texture": "$texture",
+      "controls": [
+        {
+          "@mod_buttons.mod_toggles_content_image": {}
+        }
+      ]
+    },
+    "mod_panel_toggles": {
+      "type": "panel",
+      "layer": 3,
+      "$toggle_view_binding_name|default": "this_toggle",
+      "$template_toggle|default": "mod_buttons.mod_toggles",
+      "controls": [
+        {
+          "$toggle_view_binding_name@$template_toggle": {}
+        }
+      ]
+    },
+    "mod_button": {
+      "type": "panel",
+      "layer": 3,
+      "$toggle_view_binding_name|default": "this_toggle",
+      "$template_toggle|default": "mod_buttons.mod_button_checked",
+      "controls": [
+        {
+          "$toggle_view_binding_name@$template_toggle": {}
+        }
+      ]
+    },
+    "toggle_unchecked@mod_buttons.mod_panel_content": {
+      "texture": "ui/MTab"
+    },
+    "toggle_checked@mod_buttons.mod_panel_content": {
+      "texture": "ui/MTab"
+    },
+    "toggle_unchecked_hover@mod_buttons.mod_panel_content": {
+      "texture": "ui/MTab"
+    },
+    "toggle_checked_hover@mod_buttons.mod_panel_content": {
+      "texture": "ui/MTab"
+    },
+    "toggle_uncheckedBTU@mod_buttons.mod_toggles_content": {
+      "texture": "ui/MTab"
+    },
+    "toggle_checkedBTU@mod_buttons.mod_toggles_content": {
+      "texture": "ui/MTab"
+    },
+    "toggle_unchecked_hoverBTU@mod_buttons.mod_toggles_content": {
+      "texture": "ui/MTab"
+    },
+    "toggle_checked_hoverBTU@mod_buttons.mod_toggles_content": {
+      "texture": "ui/MTab"
+    },
+    "toggle_uncheckedMT@mod_buttons.mod_panel_content": {
+      "texture": "textures/ui/toggle_on"
+    },
+    "toggle_checkedMT@mod_buttons.mod_panel_content": {
+      "texture": "textures/ui/toggle_off"
+    },
+    "toggle_unchecked_hoverMT@mod_buttons.mod_panel_content": {
+      "texture": "textures/ui/toggle_on_hover"
+    },
+    "toggle_checked_hoverMT@mod_buttons.mod_panel_content": {
+      "texture": "textures/ui/toggle_off_hover"
+    }
+  }
