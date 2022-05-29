@@ -1,0 +1,29 @@
+{
+    "format_version": 2,
+    "header": {
+        "description": "It is a simple Dark UI for Bedrock Edition by LeGend077",
+        "name": "LeGend's Dark UI",
+        "uuid": "205ba5fc-46f6-4269-b311-299021554166",
+        "min_engine_version": [
+            1,
+            16,
+            0
+        ],
+        "version": [
+            1,
+            0,
+            0
+        ]
+    },
+    "modules": [
+        {
+            "type": "resources",
+            "uuid": "205e172c-9017-413b-8fdb-e22c53e7ff27",
+            "version": [
+                1,
+                0,
+                0
+            ]
+        }
+    ]
+}
