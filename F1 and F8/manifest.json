@@ -1,0 +1,17 @@
+{
+    "format_version": 2,
+    "header": {
+        "name": "F1 and F8 Buttons",
+        "description": "By LeGend077 on Github, MCPEDL, Discord: LeGend#1687. Adds simple f1 and f8 buttons for mobile users on HUD Screen.",
+        "uuid": "1069754e-f8ba-487b-837d-6c0a0a1c5c47",
+        "version":[ 1, 0, 0 ],
+        "min_engine_version": [ 1, 13, 0 ]
+    },
+    "modules": [
+        {
+            "type": "resources",
+            "uuid": "5902ebc0-eace-44bb-af64-c132971fdf3c",
+            "version":[ 1, 0, 0 ]
+        }
+    ]
+}
