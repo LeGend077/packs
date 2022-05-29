@@ -1,0 +1,45 @@
+{
+  "format_version": 2,
+  "header": {
+    "name": "Half A Heart Hardcore ( HHH )[ BP ]",
+    "description": "by LeGend077. Inspired for Java Speedrunning Category HHH.",
+    "uuid": "27bcde2d-7ac3-be66-d7a7-bfee2b5b06da",
+    "version": [
+      1,
+      0,
+      0
+    ],
+    "min_engine_version": [
+      1,
+      17,
+      0
+    ]
+  },
+  "modules": [
+    {
+      "type": "data",
+      "uuid": "39c0e6f5-3b0d-fc5f-cf4f-541b5d4601f4",
+      "version": [
+        1,
+        0,
+        0
+      ]
+    }
+  ],
+  "dependencies": [
+    {
+      "uuid": "0246999c-33a7-94f0-3b6c-4a6a02789e7b",
+      "version": [
+        1,
+        0,
+        0
+      ]
+    }
+  ],
+  "metadata": {
+    "authors": [
+      "LeGend077"
+    ],
+    "url": "https://github.com/LeGend077"
+  }
+}

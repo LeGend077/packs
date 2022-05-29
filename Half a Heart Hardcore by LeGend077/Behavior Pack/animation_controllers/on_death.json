@@ -1,0 +1,30 @@
+{
+	"format_version": "1.10.0",
+	"animation_controllers": {
+		"controller.animation.on_death": {
+			"states": {
+				"default": {
+					"transitions": [
+						{
+							"dead": "!query.is_alive"
+						}
+					]
+				},
+				"dead": {
+					"on_entry": [
+                        "/clear @s",
+                        "/gamemode 6 @s",
+                        "/gamerule domobloot false",
+                        "/gamerule doentitydrops false",
+                        "/gamerule showcoordinates false"
+                    ],
+					"transitions": [
+						{
+							"default": "query.is_alive"
+						}
+					]
+				}
+			}
+		}
+	}
+}
