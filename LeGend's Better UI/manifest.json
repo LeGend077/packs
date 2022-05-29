@@ -1,0 +1,35 @@
+{
+  "format_version": 2,
+  "header": {
+      "name": "LeGend's Better UI",
+      "description": "Hey! It's LeGend077. This is the pack which improves the UI and add usefull things to the Screens!",
+      "uuid": "2e45c58c-c29e-44a9-a93e-b9993ef97b91",
+      "version":[ 1, 0, 0 ],
+      "min_engine_version": [ 1, 13, 0 ]
+  },
+  "modules": [
+      {
+          "type": "resources",
+          "uuid": "732e2b5a-180c-4848-81b7-e2105e38d067",
+          "version":[ 1, 0, 0 ]
+      }
+  ],
+  "metadata": {
+      "authors": [
+          "LeGend077"
+      ],
+      "url": "https://github.com/LeGend077"
+  },
+  "subpacks": [
+		{
+			"folder_name": "default",
+			"name": "Vanilla UI",
+			"memory_tier": 0
+		},
+    {
+			"folder_name": "_look",
+			"name": "Customized UI",
+			"memory_tier": 1
+		}
+	]
+}
