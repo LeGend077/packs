@@ -1,0 +1,12 @@
+{
+	"resource_pack_name": "Home Potion",
+	"texture_name": "atlas.items",
+	"texture_data": {
+		"home_potion_bottle_teleport_full": {
+			"textures": "textures/items/potion_bottle_teleport_full"
+		},
+		"home_potion_bottle_teleport_half": {
+			"textures": "textures/items/potion_bottle_teleport_half"
+		}
+	}
+}

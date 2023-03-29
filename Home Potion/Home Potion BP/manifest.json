@@ -1,0 +1,55 @@
+{
+	"format_version": 2,
+	"metadata": {
+		"authors": [
+			"LeGend077"
+		]
+	},
+	"header": {
+		"name": "§gHome§r Potion | Behavior Pack",
+		"description": "Make a Potion, Break a Block with it to set the location, Drink it, You Teleport. Yeah.. This is definitely not created in 3 hours.",
+		"min_engine_version": [
+			1,
+			19,
+			60
+		],
+		"uuid": "e547cce8-625f-4dbd-9c06-d95b7cd9cf01",
+		"version": [
+			1,
+			0,
+			0
+		]
+	},
+	"modules": [
+		{
+			"type": "data",
+			"uuid": "062fffc8-d81b-4425-a8e6-527a64e43710",
+			"version": [
+				1,
+				0,
+				0
+			]
+		},
+		{
+			"type": "script",
+			"language": "javascript",
+			"uuid": "9643e458-f430-42db-b286-be9e1e44dc94",
+			"entry": "scripts/main.js",
+			"version": [
+				1,
+				0,
+				0
+			]
+		}
+	],
+	"dependencies": [
+		{
+			"module_name": "@minecraft/server",
+			"version": "1.1.0-beta"
+		},
+		{
+			"module_name": "@minecraft/server-ui",
+			"version": "1.0.0-beta"
+		}
+	]
+}

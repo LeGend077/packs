@@ -1,0 +1,38 @@
+{
+	"format_version": "1.12",
+	"minecraft:recipe_shaped": {
+		"description": {
+			"identifier": "home:home_potion_full"
+		},
+		"tags": [
+			"crafting_table"
+		],
+		"key": {
+			"#": {
+				"item": "potion",
+				"data": 4
+			},
+			"?": {
+				"item": "ender_pearl"
+			},
+			"B": {
+				"item": "blaze_rod"
+			},
+			"E": {
+				"item": "ender_eye"
+			},
+			"G": {
+				"item": "ghast_tear"
+			}
+		},
+		"pattern": [
+			"GGG",
+			"?#B",
+			"?EE"
+		],
+		"result": {
+			"item": "home:potion_bottle_teleport_full",
+			"count": 1
+		}
+	}
+}
