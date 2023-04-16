@@ -2,9 +2,16 @@
 
 ### Find every creation of mine created for MC Bedrock
 
-> All the Add-Ons / Resource Packs were created when I was a beginner so the code maybe a little bit wacky.
+Old Packs:
 
-Though, these are the add-ons that were made when I became better at making add-ons:
+- Extra Recipes
+- F1  and F8
+- Half a Heart Hardcore
+- LeGend's Better UI
+- LeGend's Dark UI Pack
+- LeGend's UI Pack
+
+New Packs:
 
 - Home Potion
 - Hive UI Recreated by Me
