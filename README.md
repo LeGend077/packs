@@ -30,6 +30,6 @@ New Packs:
 **You are NOT permitted to:**
 
 - Negate the accreditation of the original author.
-- Paste the direct download link, negating the MCPEDL page.
+- Paste the direct download link, negating the this page.
 - Take the author's code, works, and textures just to republish them as your own.
 
