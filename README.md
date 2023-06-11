@@ -16,7 +16,7 @@ New Packs:
 - Home Potion
 - Hive UI Recreated by Me
 > I made so it does not work.
-> For those losers who will say: "Can I use it?", "How to make like this?"
+> For those losers who will say: "Can I use it?", "How to make like this?".
 > It is unoptimized and badly coded.
 ![image](https://user-images.githubusercontent.com/98607285/232242344-ce7ab808-cf5a-4dab-ad19-ff91fdaccd9e.png)
 
