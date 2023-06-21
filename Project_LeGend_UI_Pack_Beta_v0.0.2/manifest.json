@@ -1,0 +1,17 @@
+  {
+    "format_version": 2,
+    "header": {
+      "name": "§bProject LeGend§r UI Pack",
+      "description": "§lBeta v0.0.2§r | Public Release-1 | Unfinished | Many features yet to be come in stable v1.0.0",
+      "uuid": "29997b20-2a15-46ef-8a4d-82deba1d30cf",
+    "version": [1, 0, 0],
+    "min_engine_version": [1, 17, 0]
+  },
+  "modules": [
+    {
+      "type": "resources",
+      "uuid": "29997fa8-7fb1-41b1-b5cd-cf55b0348eed",
+      "version": [1, 0, 0]
+    }
+  ]
+}

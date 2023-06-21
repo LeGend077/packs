@@ -1,0 +1,395 @@
+{
+  "namespace": "start",
+  "logo_dusk": {
+    "type": "image",
+    "texture": "PROJECT_LEGEND/textures/logo",
+    "size": [
+      50,
+      50
+    ],
+    "offset": [
+      0,
+      -60
+    ], 
+    "layer": 10
+  },
+  "logo_text": {
+    "type": "label",
+    "text": "Project LeGend",
+    "font_type": "MinecraftTen",
+    "font_size": "large",
+    "offset": [
+      0,
+      -20
+    ],
+    "layer": 10
+  },
+  "gear_image@chat.gear_image": {
+    "size": [
+      20,
+      20
+    ]
+  },
+  "profile_image": {
+    "type": "image",
+    "size": [
+      20,
+      20
+    ],
+    "texture": "textures/ui/dressing_room_animation"
+  },
+  "store_home_icon": {
+    "type": "image",
+    "size": [
+      20,
+      20
+    ],
+    "texture": "textures/ui/store_home_icon"
+  },
+  "achievements_icon": {
+    "type": "image",
+    "texture": "textures/ui/achievements",
+    "layer": 3,
+    "size": [
+      20,
+      20
+    ]
+  },
+  "elipses_image": {
+    "type": "image",
+    "texture": "textures/ui/elipses",
+    "anchor_from": "center",
+    "anchor_to": "center",
+    "size": [
+      20,
+      20
+    ],
+    "layer": 30,
+    "alpha": 1
+  },
+  "main_buttons": {
+    "type": "panel",
+    "size": [
+      "100%",
+      "100%"
+    ],
+    "anchor_from": "center",
+    "anchor_to": "center",
+    "layer": 2,
+    "offset": [
+      0,
+      25
+    ],
+    "controls": [
+      {
+        "play_button@common_buttons.light_text_button": {
+          "size": [
+            175,
+            25
+          ],
+          "$pressed_button_name": "$play_button_target",
+          "offset": [
+            0,
+            -16
+          ],
+          "$button_text": "Play"
+        }
+      },
+      {
+        "info_button@common_toggles.light_text_toggle": {
+          "size": [
+            175,
+            25
+          ],
+          "$toggle_name": "info",
+          "offset": [
+            0,
+            14
+          ],
+          "$toggle_view_binding_name": "info",
+          "$button_text": "Information"
+        }
+      }
+    ]
+  },
+  "info_panel": {
+    "type": "panel",
+    "size": [
+      "60%",
+      "60%"
+    ],
+    "layer": 100,
+    "bindings": [
+      {
+        "binding_type": "view",
+        "source_control_name": "info",
+        "source_property_name": "#toggle_state",
+        "target_property_name": "#visible"
+      }
+    ],
+    "controls": [
+      {
+        "bg": {
+          "type": "image",
+          "size": [
+            "100%",
+            "100%"
+          ],
+          "texture": "textures/ui/Black",
+          "alpha": 0.7
+        }
+      },
+      {
+        "main_label": {
+          "type": "label",
+          "layer": 10,
+          "text": "This is Project LeGend UI Pack§r§f created by§r §bLeGend077§r §fwith Love!\n\nThis Pack is alone made by me except the concept given by other people.§r",
+          "color": "white",
+          "text_alignment": "center",
+          "font_scale_factor": 0.8
+        }
+      }
+    ]
+  },
+  "bottom_bar": {
+    "type": "panel",
+    "size": [
+      "100%",
+      "100%"
+    ],
+    "anchor_from": "bottom_middle",
+    "anchor_to": "bottom_middle",
+    "controls": [
+      {
+        "more_button@common_toggles.light_content_toggle": {
+          "$toggle_name": "more",
+          "$toggle_view_binding_name": "more",
+          "size": [
+            30,
+            30
+          ],
+          "$button_content": "start.elipses_image",
+          "anchor_from": "bottom_middle",
+          "anchor_to": "bottom_middle"
+        }
+      }
+    ]
+  },
+  "more_panel": {
+    "type": "panel",
+    "size": [
+      "100%",
+      "100%"
+    ],
+    "anchor_from": "bottom_middle",
+    "anchor_to": "bottom_middle",
+    "offset": [
+      0,
+      0
+    ],
+    "bindings": [
+      {
+        "binding_type": "view",
+        "source_control_name": "more",
+        "source_property_name": "#toggle_state",
+        "target_property_name": "#visible"
+      }
+    ],
+    "controls": [
+      {
+        "settings_button@common_buttons.light_content_button": {
+          "size": [
+            30,
+            30
+          ],
+          "anchor_from": "bottom_middle",
+          "anchor_to": "bottom_middle",
+          "$button_content": "start.gear_image",
+          "$pressed_button_name": "button.menu_settings",
+          "offset": [
+            -47,
+            -32
+          ],
+          "layer": 1,
+          "$font_type": "smooth"
+        }
+      },
+      {
+        "profile_button@common_buttons.light_content_button": {
+          "size": [
+            30,
+            30
+          ],
+          "anchor_from": "bottom_middle",
+          "anchor_to": "bottom_middle",
+          "$button_content": "start.profile_image",
+          "$pressed_button_name": "button.to_profile_screen",
+          "offset": [
+            -16,
+            -32
+          ],
+          "layer": 1,
+          "$font_type": "smooth"
+        }
+      },
+      {
+        "store_button@common_buttons.light_content_button": {
+          "size": [
+            30,
+            30
+          ],
+          "anchor_from": "bottom_middle",
+          "anchor_to": "bottom_middle",
+          "$button_content": "start.store_home_icon",
+          "$pressed_button_name": "button.menu_store",
+          "offset": [
+            16,
+            -32
+          ],
+          "layer": 1,
+          "$font_type": "smooth"
+        }
+      },
+      {
+        "achivements_button@common_buttons.light_content_button": {
+          "size": [
+            30,
+            30
+          ],
+          "anchor_from": "bottom_middle",
+          "anchor_to": "bottom_middle",
+          "$button_content": "start.achievements_icon",
+          "$pressed_button_name": "button.menu_achievements",
+          "offset": [
+            47,
+            -32
+          ],
+          "layer": 1,
+          "$font_type": "smooth"
+        }
+      }
+    ]
+  },
+  "start_screen@common.base_screen": {
+    "$screen_animations": [
+      "@common.screen_exit_animation_push_fade",
+      "@common.screen_exit_animation_pop_fade",
+      "@common.screen_entrance_animation_push_fade",
+      "@common.screen_entrance_animation_pop_fade"
+    ],
+    "button_mappings": [
+      {
+        "ignored": "(not $can_quit)",
+        "from_button_id": "button.menu_cancel",
+        "to_button_id": "button.menu_exit",
+        "mapping_type": "global"
+      },
+      {
+        "ignored": "(not $nx_os)",
+        "from_button_id": "button.controller_select",
+        "to_button_id": "button.menu_offline",
+        "mapping_type": "global"
+      },
+      {
+        "ignored": "(not $can_swap_vr_mode)",
+        "from_button_id": "button.controller_secondary_select",
+        "to_button_id": "button.menu_swap_vr_mode",
+        "mapping_type": "global"
+      },
+      {
+        "ignored": "(not $can_swap_vr_mode)",
+        "from_button_id": "button.menu_swap_vr_mode",
+        "to_button_id": "button.menu_swap_vr_mode",
+        "mapping_type": "global"
+      }
+    ],
+    "$screen_content": "start.legend_client_start_screen_content",
+    "$screen_bg_content": "start.bg"
+  },
+  "bg": {
+    "type": "image",
+    "fill": true,
+    "texture": "PROJECT_LEGEND/textures/bg",
+    "layer": -100
+  },
+  "legend_client_start_screen_content": {
+    "type": "panel",
+    "$achievements_ignored|default": false,
+    "$feedback_ignored|default": false,
+    "$store_ignored|default": false,
+    "$is_toolbox_ignored|default": false,
+    "variables": [
+      {
+        "requires": "$education_edition",
+        "$achievements_ignored": true,
+        "$store_ignored|default": true
+      },
+      {
+        "requires": "$gear_vr",
+        "$feedback_ignored": true
+      },
+      {
+        "requires": "$fire_tv",
+        "$feedback_ignored": true
+      },
+      {
+        "requires": "$nx_os",
+        "$feedback_ignored": true
+      },
+      {
+        "requires": "(not $supports_xbl_achievements)",
+        "$achievements_ignored": true,
+        "$feedback_ignored": true
+      },
+      {
+        "requires": "$trial",
+        "$achievements_ignored": true
+      },
+      {
+        "requires": "(not $is_desktop or $is_publish)",
+        "$is_toolbox_ignored": true
+      }
+    ],
+    "bindings": [
+      {
+        "binding_name": "(not #screen_needs_rebuild)",
+        "binding_name_override": "#visible"
+      }
+    ],
+    "controls": [
+      {
+        "logo_dusk@start.logo_dusk": {}
+      },
+      {
+        "logo_text@start.logo_text": {}
+      },
+      {
+        "main_buttons@start.main_buttons": {}
+      },
+      {
+        "info_panel@start.info_panel": {}
+      },
+      {
+        "more_panel@start.more_panel": {}
+      },
+      {
+        "bottom_bar@start.bottom_bar": {}
+      },
+      {
+        "platform_signin_button@common_buttons.light_text_button": {
+          "$pressed_button_name": "button.signin",
+          "size": [ 30, 20 ],
+          "$button_text": "Sign In",
+          "anchor_from": "top_left",
+          "anchor_to": "top_left",
+          "bindings": [
+            {
+              "binding_name": "#sign_in_visible",
+              "binding_name_override": "#visible"
+            }
+          ]
+        }
+      }
+    ]
+  }
+}

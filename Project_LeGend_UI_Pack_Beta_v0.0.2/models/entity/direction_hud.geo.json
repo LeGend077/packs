@@ -1,0 +1,24 @@
+{
+	"format_version": "1.12.0",
+	"minecraft:geometry": [
+		{
+			"description": {
+				"identifier": "geometry.direction_hud",
+				"texture_width": 32,
+				"texture_height": 8,
+				"visible_bounds_width": 4,
+				"visible_bounds_height": 8,
+				"visible_bounds_offset": [0, 3, 0]
+			},
+			"bones": [
+				{
+					"name": "bb_main",
+					"pivot": [0, 0, 0],
+					"cubes": [
+						{"origin": [-16, 94, -1], "size": [32, 8, 0.1], "uv": [0, 0]}
+					]
+				}
+			]
+		}
+	]
+}

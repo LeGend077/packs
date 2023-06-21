@@ -1,0 +1,213 @@
+{
+    "namespace": "advanced_section",
+    "advance_button@settings_common.section_toggle_base": {
+      "$toggle_view_binding_name": "advanced_toggle",
+      "$glyph_texture": "textures/ui/hammer_l",
+      "$glyph_color_texture": "textures/ui/hammer_l",
+      "$glyph_size": [
+        19,
+        20
+      ],
+      "$button_text": "Advanced Settings",
+      "$toggle_property_bag": {
+        "#panel_title": "Advanced Settings"
+      }
+    },
+    "advanced_section": {
+      "type": "stack_panel",
+      "size": [
+        "100%",
+        "100%c"
+      ],
+      "anchor_from": "top_left",
+      "anchor_to": "top_left",
+      "bindings": [
+        {
+          "binding_type": "view",
+          "source_control_name": "advanced_toggle",
+          "source_property_name": "#toggle_state",
+          "target_property_name": "#visible"
+        }
+      ],
+      "controls": [
+        {
+          "selector_group_lable_210@settings_common.selector_group_label": {
+            "text": "§lAdvanced Settings§r",
+            "font_type": "default"
+          }
+        },
+        {
+          "selector_group_lable_220@settings_common.selector_group_label": {
+            "text": " ",
+            "font_type": "default"
+          }
+        },
+        {
+          "vsync_dropdown@settings_common.option_dropdown": {
+            "$option_label": "§aV-Sync Dropdown Menu:§r",
+            "$dropdown_content": "general_section.vysnc_dropdown_content",
+            "$dropdown_area": "content_area",
+            "$dropdown_name": "vsync_dropdown",
+            "$options_dropdown_toggle_label_binding": "#vsync_dropdown_toggle_label",
+            "$option_enabled_binding_name": "#vsync_dropdown_enabled",
+            "$dropdown_scroll_content_size": [
+              "100%",
+              "200%"
+            ]
+          }
+        },
+        {
+          "max_framerate_slider@settings_common.option_slider": {
+            "ignored": "($is_holographic)",
+            "$option_label": "#max_framerate_slider_label",
+            "$slider_name": "max_framerate",
+            "$slider_value_binding_name": "#max_framerate",
+            "$slider_tts_text_value": "#max_framerate_text_value",
+            "$option_enabled_binding_name": "#max_framerate_enabled",
+            "$slider_steps_binding_name": "#max_framerate_steps",
+            "$label_bindings": [
+              {
+                "binding_name": "$option_label"
+              }
+            ]
+          }
+        },
+        {
+          "selector_group_lable_2230@settings_common.selector_group_label": {
+            "text": "§lToggles§r",
+            "font_type": "default"
+          }
+        },
+        {
+          "selector_group_lable_2235@settings_common.selector_group_label": {
+            "text": " ",
+            "font_type": "default"
+          }
+        },
+        {
+          "outline_selection_toggle@settings_common.option_toggle": {
+            "ignored": "($is_holographic)",
+            "$option_label": "Block Outlines",
+            "$option_binding_name": "#classic_box_selection",
+            "$option_enabled_binding_name": "#classic_box_selection_enabled",
+            "$toggle_name": "classic_box_selection"
+          }
+        },
+		{
+			"fancy_bubbles_toggle@settings_common.option_toggle": {
+			  "$option_label": "options.bubbleparticles",
+			  "$option_binding_name": "#bubble_particles",
+			  "$option_enabled_binding_name": "#bubble_particles_enabled",
+			  "$toggle_name": "bubble_particles"
+			}
+		  },
+		  {
+			"fancy_leaves_toggle@settings_common.option_toggle": {
+			  "ignored": false,
+			  "$option_label": "Fancy Leaves",
+			  "$option_binding_name": "#transparent_leaves",
+			  "$option_enabled_binding_name": "#transparent_leaves_enabled",
+			  "$toggle_name": "transparent_leaves"
+			}
+		  },
+		  {
+			"player_names_toggle@settings_common.option_toggle": {
+			  "$option_label": "In-Game Player Names",
+			  "$option_binding_name": "#ingame_player_names",
+			  "$option_enabled_binding_name": "#ingame_player_names_enabled",
+			  "$toggle_name": "ingame_player_names"
+			}
+		  },
+		  {
+			"texel_anti_aliasing_toggle2@settings_common.option_toggle": {
+			  "$option_label": "options.texelAA",
+			  "$option_binding_name": "#texel_aa",
+			  "$option_enabled_binding_name": "#texel_aa_enabled",
+			  "$toggle_name": "texel_aa"
+			}
+		  },
+		  {
+			"selector_group_lable_220@settings_common.selector_group_label": {
+			  "text": " ",
+			  "font_type": "default"
+			}
+		  },
+        {
+          "selector_group_lable_2222@settings_common.selector_group_label": {
+            "text": "§lVideo Sliders§r",
+            "font_type": "default"
+          }
+        },
+        {
+          "selector_group_lable_2200@settings_common.selector_group_label": {
+            "text": " ",
+            "font_type": "default"
+          }
+        },
+        {
+          "fov_slider@settings_common.option_slider": {
+            "$ignored": "($is_holographic and $is_reality_mode and not $is_pregame)",
+            "$option_label": "#field_of_view_slider_label",
+            "$slider_tts_text_value": "#field_of_view_text_value",
+            "$slider_name": "field_of_view",
+            "$slider_value_binding_name": "#field_of_view",
+            "$option_enabled_binding_name": "#field_of_view_enabled",
+            "$label_bindings": [
+              {
+                "binding_name": "$option_label"
+              }
+            ]
+          }
+        },
+        {
+          "hud_opacity_slider@settings_common.option_slider": {
+            "$option_label": "#interface_opacity_slider_label",
+            "$slider_name": "interface_opacity",
+            "$slider_value_binding_name": "#interface_opacity",
+            "$slider_tts_text_value": "#interface_opacity_text_value",
+            "$option_enabled_binding_name": "#interface_opacity_enabled",
+            "$label_bindings": [
+              {
+                "binding_name": "$option_label"
+              }
+            ]
+          }
+        },
+        {
+          "option_slider_thumbstick_opacity@settings_common.option_slider": {
+            "$option_label": "#thumbstick_opacity_slider_label",
+            "$slider_name": "thumbstick_opacity",
+            "$slider_value_binding_name": "#thumbstick_opacity",
+            "$slider_tts_text_value": "#thumbstick_opacity_text_value",
+            "$option_enabled_binding_name": "#thumbstick_opacity_enabled",
+            "$label_bindings": [
+              {
+                "binding_name": "$option_label"
+              }
+            ],
+            "bindings": [
+              {
+                "binding_name": "#is_thumbstick_visible",
+                "binding_name_override": "#visible"
+              }
+            ]
+          }
+        },
+        {
+          "ui_profile_dropdown@settings_common.option_dropdown": {
+            "ignored": "($console_edition)",
+            "$option_label": "options.uiprofile",
+            "$dropdown_content": "general_section.ui_profile_dropdown_content",
+            "$dropdown_area": "content_area",
+            "$dropdown_name": "ui_profile_dropdown",
+            "$option_enabled_binding_name": "#ui_profile_dropdown_enabled",
+            "$options_dropdown_toggle_label_binding": "#ui_profile_dropdown_toggle_label",
+            "$dropdown_scroll_content_size": [
+              "100%",
+              "145%"
+            ]
+          }
+        }
+      ]
+    }
+  }

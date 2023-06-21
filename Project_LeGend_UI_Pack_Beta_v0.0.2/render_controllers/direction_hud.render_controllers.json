@@ -1,0 +1,79 @@
+{
+  "format_version": "1.8.0",
+  "render_controllers": {
+    "controller.render.north": {
+      "geometry": "geometry.direction_hud",
+      "materials": [{ "*": "Material.default" }],
+      "textures": ["texture.north"],
+      "is_hurt_color": { "r": "1.0", "g": "1.0", "b": "1.0", "a": 1.0 },
+      "on_fire_color": { "r": "1.0", "g": "1.0", "b": "1.0", "a": 1.0 },
+      "overlay_color": { "r": "1.0", "g": "1.0", "b": "1.0", "a": 1.0 }
+    },
+    "controller.render.south": {
+      "geometry": "geometry.direction_hud",
+      "materials": [{ "*": "Material.default" }],
+      "textures": ["texture.south"],
+      "is_hurt_color": { "r": "1.0", "g": "1.0", "b": "1.0", "a": 1.0 },
+      "on_fire_color": { "r": "1.0", "g": "1.0", "b": "1.0", "a": 1.0 },
+      "overlay_color": { "r": "1.0", "g": "1.0", "b": "1.0", "a": 1.0 }
+    },
+    "controller.render.east": {
+      "geometry": "geometry.direction_hud",
+      "materials": [{ "*": "Material.default" }],
+      "textures": ["texture.east"],
+      "is_hurt_color": { "r": "1.0", "g": "1.0", "b": "1.0", "a": 1.0 },
+      "on_fire_color": { "r": "1.0", "g": "1.0", "b": "1.0", "a": 1.0 },
+      "overlay_color": { "r": "1.0", "g": "1.0", "b": "1.0", "a": 1.0 }
+    },
+    "controller.render.west": {
+      "geometry": "geometry.direction_hud",
+      "materials": [{ "*": "Material.default" }],
+      "textures": ["texture.west"],
+      "is_hurt_color": { "r": "1.0", "g": "1.0", "b": "1.0", "a": 1.0 },
+      "on_fire_color": { "r": "1.0", "g": "1.0", "b": "1.0", "a": 1.0 },
+      "overlay_color": { "r": "1.0", "g": "1.0", "b": "1.0", "a": 1.0 }
+    },
+    "controller.render.totem": {
+      "geometry": "geometry.offhand_hud",
+      "materials": [{ "*": "Material.default" }],
+      "textures": ["texture.totem"],
+      "is_hurt_color": { "r": "1.0", "g": "1.0", "b": "1.0", "a": 1.0 },
+      "on_fire_color": { "r": "1.0", "g": "1.0", "b": "1.0", "a": 1.0 }
+    },
+    "controller.render.nautilus": {
+      "geometry": "geometry.offhand_hud",
+      "materials": [{ "*": "Material.default" }],
+      "textures": ["texture.nautilus"],
+      "is_hurt_color": { "r": "1.0", "g": "1.0", "b": "1.0", "a": 1.0 },
+      "on_fire_color": { "r": "1.0", "g": "1.0", "b": "1.0", "a": 1.0 }
+    },
+    "controller.render.offhand.arrow": {
+      "geometry": "geometry.offhand_hud",
+      "materials": [{ "*": "Material.default" }],
+      "textures": ["texture.arrow"],
+      "is_hurt_color": { "r": "1.0", "g": "1.0", "b": "1.0", "a": 1.0 },
+      "on_fire_color": { "r": "1.0", "g": "1.0", "b": "1.0", "a": 1.0 }
+    },
+    "controller.render.fireworks": {
+      "geometry": "geometry.offhand_hud",
+      "materials": [{ "*": "Material.default" }],
+      "textures": ["texture.fireworks"],
+      "is_hurt_color": { "r": "1.0", "g": "1.0", "b": "1.0", "a": 1.0 },
+      "on_fire_color": { "r": "1.0", "g": "1.0", "b": "1.0", "a": 1.0 }
+    },
+    "controller.render.map": {
+      "geometry": "geometry.offhand_hud",
+      "materials": [{ "*": "Material.default" }],
+      "textures": ["texture.map"],
+      "is_hurt_color": { "r": "1.0", "g": "1.0", "b": "1.0", "a": 1.0 },
+      "on_fire_color": { "r": "1.0", "g": "1.0", "b": "1.0", "a": 1.0 }
+    },
+    "controller.render.offhand.shield": {
+      "geometry": "geometry.offhand_hud",
+      "materials": [{ "*": "Material.default" }],
+      "textures": ["texture.shield"],
+      "is_hurt_color": { "r": "1.0", "g": "1.0", "b": "1.0", "a": 1.0 },
+      "on_fire_color": { "r": "1.0", "g": "1.0", "b": "1.0", "a": 1.0 }
+    }
+  }
+}

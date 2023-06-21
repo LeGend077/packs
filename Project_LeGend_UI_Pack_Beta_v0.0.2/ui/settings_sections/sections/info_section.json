@@ -1,0 +1,53 @@
+﻿{
+    "namespace": "info_section",
+    "info_button@settings_common.section_toggle_base": {
+      "$toggle_view_binding_name": "info_toggle",
+      "$glyph_texture": "textures/ui/icon_book_writable",
+      "$glyph_color_texture": "textures/ui/icon_book_writable",
+      "$glyph_size": [
+        19,
+        20
+      ],
+      "$button_text": "Information",
+      "$toggle_property_bag": {
+        "#panel_title": "Information"
+      }
+    },
+    "info_section": {
+      "type": "stack_panel",
+      "size": [
+        "100%",
+        "100%c"
+      ],
+      "anchor_from": "top_left",
+      "anchor_to": "top_left",
+      "bindings": [
+        {
+          "binding_type": "view",
+          "source_control_name": "info_toggle",
+          "source_property_name": "#toggle_state",
+          "target_property_name": "#visible"
+        }
+      ],
+      "controls": [
+        {
+          "title@settings_common.selector_group_label": {
+            "text": "§lInformation§r",
+            "font_type": "default"
+          }
+        },
+        {
+          "space1@settings_common.selector_group_label": {
+            "text": " ",
+            "font_type": "default"
+          }
+        },
+        {
+          "content@settings_common.selector_group_label": {
+            "text": "Project LeGend UI Pack is a Big Project which aims to make the Vanilla UI better and add some features to help you play the game.\n\nCreator: LeGend077 (Github, MCPEDL, Discord)\nDiscord Server: https://dsc.gg/legend077 \n\nPack Version: §lBeta v0.0.2§r",
+            "font_type": "default"
+          }
+        }
+      ]
+    }
+  }
