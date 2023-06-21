@@ -5,11 +5,12 @@
 Old Packs:
 
 - Extra Recipes
-- F1  and F8
+- F1  and F8 (Deprecated)
 - Half a Heart Hardcore
-- LeGend's Better UI
+- LeGend's Better UI (Deprecated)
 - LeGend's Dark UI Pack
-- LeGend's UI Pack
+- LeGend's UI Pack (Deprecated)
+- Project LeGend UI Pack (Deprecated)
 
 New Packs:
 
