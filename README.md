@@ -18,7 +18,7 @@ New Packs:
 - Hive UI Recreated by Me
 > I made so it does not work.
 > For those losers who will say: "Can I use it?", "How to make like this?".
-> It is unoptimized and badly coded.
+> It is unoptimized and badly coded as it was speedran by me in 2 hrs 31 mins.
 ![image](https://user-images.githubusercontent.com/98607285/232242344-ce7ab808-cf5a-4dab-ad19-ff91fdaccd9e.png)
 
 ### Usage Conditions
