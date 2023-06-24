@@ -1,8 +1,9 @@
 import { world, system, EntityInventoryComponent, EntityHealthComponent } from "@minecraft/server"
 import { ActionFormData } from "@minecraft/server-ui"
 
-world.events.beforeItemUse.subscribe(ev => {
-    if (ev.item.typeId === "minecraft:stick" && ev.source.typeId === "minecraft:player") {
+world.beforeEvents.itemUse.subscribe(ev => {
+    let a = system.run(() => {
+        if (ev.item.typeId === "minecraft:stick" && ev.source.typeId === "minecraft:player") {
         let form = new ActionFormData()
             .body("§bWhere would you like to go?§r Choose from our selection of games or a quick travel location.")
             .title("HIVE GAMES")
@@ -24,4 +25,6 @@ world.events.beforeItemUse.subscribe(ev => {
                 }
             })
     }
+        system.clearRun(a)
+    })
 })
