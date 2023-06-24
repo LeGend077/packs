@@ -13,10 +13,7 @@
 				"dead": {
 					"on_entry": [
                         "/clear @s",
-                        "/gamemode 6 @s",
-                        "/gamerule domobloot false",
-                        "/gamerule doentitydrops false",
-                        "/gamerule showcoordinates false"
+                        "/gamemode spectator @s"
                     ],
 					"transitions": [
 						{
