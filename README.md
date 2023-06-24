@@ -21,6 +21,9 @@ _Deprecated Packs are not working/out of support._
 ![image](https://user-images.githubusercontent.com/98607285/232242344-ce7ab808-cf5a-4dab-ad19-ff91fdaccd9e.png)
 - Recipe Book UI
 ![image](https://github.com/LeGend077/packs/assets/98607285/c4b6b822-6558-4b7e-83eb-aab54ea9041e)
+- Chest UI - Server Form
+![image](https://github.com/LeGend077/packs/assets/98607285/5d84f1f5-f688-482f-b97b-48dde5d5f189)
+
 
 ### Usage Conditions
 
