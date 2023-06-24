@@ -3,7 +3,7 @@
 ### Find every creation of mine created for MC Bedrock
 
 **Packs**:
-_These packs are not guaranteed to run properly! Because of the scripting changes!_
+_Because of the scripting changes, some of the packs are not guaranteed to run properly!_
 _Deprecated Packs are not working/out of support._
 
 - Extra Recipes
