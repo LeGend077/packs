@@ -1,0 +1,1 @@
+`/structure load better_on_bedrockrecipe_book ~~~`

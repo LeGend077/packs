@@ -1,0 +1,30 @@
+{
+    "format_version": 2,
+    "header": {
+        "description": "idk",
+        "name": "Recipe Book UI",
+        "uuid": "15f94294-86b8-457a-be28-46a67fa86b42",
+        "min_engine_version": [
+            1,
+            20,
+            0
+        ],
+        "version": [
+            1,
+            0,
+            0
+        ]
+    },
+    "modules": [
+        {
+            "type": "resources",
+            "uuid": "c76fd6ea-6b4e-48b6-96e9-3612472be9b9",
+            "version": [
+                1,
+                0,
+                0
+            ]
+        }
+    ]
+}
+// by legend077
