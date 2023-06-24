@@ -2,8 +2,9 @@
 
 ### Find every creation of mine created for MC Bedrock
 
-**Old Packs**:
-_These packs are not guaranteed to run properly!_
+**Packs**:
+_These packs are not guaranteed to run properly! Because of the scripting changes!_
+_Deprecated Packs are not working/out of support._
 
 - Extra Recipes
 - F1  and F8 (Deprecated)
@@ -12,9 +13,6 @@ _These packs are not guaranteed to run properly!_
 - LeGend's Dark UI Pack
 - LeGend's UI Pack (Deprecated)
 - Project LeGend UI Pack (Deprecated)
-
-New Packs:
-
 - Home Potion
 - Hive UI Recreated by Me
 > I made so it does not work.
