@@ -13,7 +13,7 @@ _Deprecated Packs are not working/out of support._
 - Half a Heart Hardcore
 - LeGend's Better UI (Deprecated)
 - LeGend's Dark UI Pack
-- LeGend's UI Pack (Deprecated)
+- LeGend's UI Pack (Deprecated) (Old Version, New not available Open Source)
 - Project LeGend UI Pack (Deprecated)
 - Home Potion
 - Hive UI Recreated by Me
