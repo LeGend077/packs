@@ -239,6 +239,58 @@
                                 ],
                                 "controls": [
                                     {
+                                        "item_panel": {
+                                            "type": "input_panel",
+                                            "size": [
+                                                "100%c",
+                                                "100%c"
+                                            ],
+                                            "follows_cursor": true,
+                                            "always_handle_pointer": true,
+                                            "always_listen_to_input": true,
+                                            "hover_enabled": true,
+                                            "controls": [
+                                                {
+                                                    "item_details": {
+                                                        "type": "image",
+                                                        "size": [
+                                                            "100%c + 9px",
+                                                            "100%c + 6px"
+                                                        ],
+                                                        "offset": [
+                                                            "75%",
+                                                            0
+                                                        ],
+                                                        "texture": "textures/ui/purpleBorder",
+                                                        "layer": 3,
+                                                        "anchor_from": "right_middle",
+                                                        "anchor_to": "right_middle",
+                                                        "controls": [
+                                                            {
+                                                                "item_details_label": {
+                                                                    "type": "label",
+                                                                    "text": "#form_button_text",
+                                                                    "text_alignment": "left",
+                                                                    "bindings": [
+                                                                        {
+                                                                            "binding_type": "collection_details",
+                                                                            "binding_collection_name": "form_buttons"
+                                                                        },
+                                                                        {
+                                                                            "binding_name": "#form_button_text",
+                                                                            "binding_type": "collection",
+                                                                            "binding_collection_name": "form_buttons"
+                                                                        }
+                                                                    ]
+                                                                }
+                                                            }
+                                                        ]
+                                                    }
+                                                }
+                                            ]
+                                        }
+                                    },
+                                    {
                                         "item_texture": {
                                             "type": "image",
                                             "size": [
@@ -269,43 +321,6 @@
                                             ],
                                             "texture": "textures/ui/focus_border_white",
                                             "layer": 1
-                                        }
-                                    }
-                                ]
-                            }
-                        },
-                        {
-                            "item_details": {
-                                "type": "image",
-                                "size": [
-                                    "100%c + 9px",
-                                    "100%c + 6px"
-                                ],
-                                "offset": [
-                                    "54%x",
-                                    0
-                                ],
-                                "texture": "textures/ui/purpleBorder",
-                                "layer": 4,
-                                "anchor_from": "right_middle",
-                                "anchor_to": "right_middle",
-                                "controls": [
-                                    {
-                                        "item_details_label": {
-                                            "type": "label",
-                                            "text": "#form_button_text",
-                                            "text_alignment": "left",
-                                            "bindings": [
-                                                {
-                                                    "binding_type": "collection_details",
-                                                    "binding_collection_name": "form_buttons"
-                                                },
-                                                {
-                                                    "binding_name": "#form_button_text",
-                                                    "binding_type": "collection",
-                                                    "binding_collection_name": "form_buttons"
-                                                }
-                                            ]
                                         }
                                     }
                                 ]
