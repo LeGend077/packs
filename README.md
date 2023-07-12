@@ -17,8 +17,13 @@ _Deprecated Packs are not working/out of support._
 - Project LeGend UI Pack (Deprecated)
 - Home Potion
 
+---
+
 - Chest UI - Server Form
 It is originally created by me. But **@Herobrine643928** contributed the form scripts and stack size, player inventory, and few changes to UI.
+
+![image](https://github.com/LeGend077/packs/assets/98607285/5d84f1f5-f688-482f-b97b-48dde5d5f189)
+![image](https://github.com/LeGend077/packs/assets/98607285/5662673a-2cda-40c1-b768-ef5111ef2525)
 
 Herobrine64 has written the Description and Usage (this is a copy): [https://github.com/Herobrine643928/Chest-UI](https://github.com/Herobrine643928/Chest-UI)
 
@@ -66,9 +71,6 @@ Show it to the player & get a response
 ```js
 form.show(player).then(response)
 ```
-
-![image](https://github.com/LeGend077/packs/assets/98607285/5d84f1f5-f688-482f-b97b-48dde5d5f189)
-![image](https://github.com/LeGend077/packs/assets/98607285/5662673a-2cda-40c1-b768-ef5111ef2525)
 
 - Hive UI Recreated by Me
 > I made so it does not work.
