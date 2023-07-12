@@ -1,5 +1,5 @@
 import { ActionFormData } from '@minecraft/server-ui';
-// by herobrine64
+
 const sizes = new Map([
 	['single', [`§c§h§e§s§t§s§m§a§l§l§r`, 27]], ['double', [`§c§h§e§s§t§l§a§r§g§e§r`, 54]],
 	['small', [`§c§h§e§s§t§s§m§a§l§l§r`, 27]], ['large', [`§c§h§e§s§t§l§a§r§g§e§r`, 54]]
@@ -19,8 +19,8 @@ class ChestFormData {
 		this.#titleText += text;
 		return this;
 	}
-	button(itemName, itemDesc = [], iconPath = undefined, slot) {
-		this.#buttonArray.splice(slot - 1, 1, [`${itemName}§r\n§o§5${itemDesc.join('\n§o§5')}`, iconPath]);
+	button(slot, itemName, itemDesc, iconPath, stackSize = 1) {
+		this.#buttonArray.splice(slot, 1, [`${'stack#' + (Math.max(stackSize, 1) < 11 ? '0' : '') + Math.min(Math.max(stackSize, 1), 99).toString()}§r${itemName ?? ''}§r${itemDesc?.length ? `\n§o§5${itemDesc.join('\n§o§5')}` : ''}`, iconPath]);
 		return this;
 	}
 	show(player) {
