@@ -13,11 +13,13 @@ declare class ChestFormData {
 	title(text: string): ChestFormData;
 	/**
 	 * @remarks Adds a button to this chest ui with an icon from a resource pack.
+	 * @param slot The slot to display the item in.
 	 * @param itemName The name of the item to display.
 	 * @param itemDesc The item's lore to display.
 	 * @param iconPath The icon for the item.
+	 * @param stackAmount The stack size for the item.
 	 */
-	button(itemName: string, itemDesc?: string[], iconPath?: string): ChestFormData;
+	button(slot: number, itemName?: string, itemDesc?: string[], iconPath?: string, stackAmount?: number): ChestFormData;
 	/**
 	  * @remarks
 	  * Creates and shows this modal popup form. Returns
