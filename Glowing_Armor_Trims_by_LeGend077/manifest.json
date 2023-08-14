@@ -1,0 +1,34 @@
+{
+    "format_version": 2,
+    "header": {
+        "description": "by LeGend0778825 on MCPEDL",
+        "name": "Glowing Armor Trims | Resource Pack",
+        "uuid": "1c6d4d9a-a9b6-4027-8bc7-43424d8db744",
+        "min_engine_version": [
+            1,
+            20,
+            0
+        ],
+        "version": [
+            1,
+            0,
+            0
+        ]
+    },
+    "modules": [
+        {
+            "type": "resources",
+            "uuid": "2108ba3c-74b7-43ae-a24c-90e03ab89e75",
+            "version": [
+                1,
+                0,
+                0
+            ]
+        }
+    ],
+    "metadata": {
+      "authors": [
+        "LeGend077"
+      ]
+    }
+}

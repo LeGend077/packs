@@ -1,0 +1,15 @@
+{
+    "format_version": "1.8.0",
+    "render_controllers": {
+	"controller.render.custom_armor_def": {
+		"geometry": "Geometry.default",
+		"materials": [ { "*": "Material.default" } ],
+        "textures": [ "variable.has_trim ? variable.trim_path : Texture.default", "Texture.default"]
+	  },
+      "controller.render.custom_armor_ench": {
+        "geometry": "Geometry.default",
+        "materials": [ { "*": "variable.is_enchanted ? Material.enchanted : Material.default" } ],
+        "textures": [ "variable.has_trim ? variable.trim_path : Texture.default", "Texture.enchanted" ]
+      }
+    }
+  }

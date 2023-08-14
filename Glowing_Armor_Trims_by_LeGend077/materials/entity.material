@@ -1,0 +1,24 @@
+{
+  "materials": {
+    "version": "1.0.0",
+	"glow_armor:entity_alphablend": {
+        "+defines": [
+            "USE_EMISSIVE"
+        ],
+        "+states": [
+            "Blending",
+            "DisableCulling",
+            "DisableDepthWrite",
+            "DisableAlphaWrite"
+			]
+        }, // thanks veka (though not used)
+		"glow_armor_enchanted:entity_alphatest_glint": {
+			"+states": [ "Blending", "DisableDepthWrite", "DisableAlphaWrite", "DisableCulling" ],
+			"blendSrc": "SourceAlpha",
+			"blendDst": "One"
+		},
+		"leather_glow:entity_alphatest_change_color": {
+			"+defines": ["USE_EMISSIVE"]
+		}
+  }
+}
