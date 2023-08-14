@@ -1,5 +1,8 @@
 # Packs
 
+Youtube: [https://www.youtube.com/@legendx077](https://www.youtube.com/@legendx077)
+Discord: [https://discord.com/invite/JTpeCEeqkQ](https://discord.com/invite/JTpeCEeqkQ)
+
 ### Find every creation of mine created for MC Bedrock
 
 **Packs**:
