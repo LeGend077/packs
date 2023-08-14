@@ -18,6 +18,7 @@ _Deprecated Packs are not working/out of support._
 - LeGend's UI Pack (Deprecated) (Old Version, New not available Open Source)
 - Project LeGend UI Pack (Deprecated)
 - Home Potion
+- Glowing Armor Trims
 
 ---
 
