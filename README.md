@@ -24,7 +24,7 @@ _Deprecated Packs are not working/out of support._
 
 - Chest UI - Server Form
   
-It is originally created by me. But **@Herobrine643928** contributed many changes. Therefore, is moved to repo: [https://github.com/Herobrine643928/Chest-UI](https://github.com/Herobrine643928/Chest-UI)
+It is originally created by me. But **@Herobrine643928** contributed many changes. Therefore, is moved to repo: [https://github.com/Herobrine643928/Chest-UI](https://github.com/Herobrine643928/Chest-UI).
 
 ![image](https://github.com/LeGend077/packs/assets/98607285/5d84f1f5-f688-482f-b97b-48dde5d5f189)
 ![image](https://github.com/LeGend077/packs/assets/98607285/5662673a-2cda-40c1-b768-ef5111ef2525)
